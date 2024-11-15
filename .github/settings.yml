@@ -2,6 +2,6 @@
 _extends: .github
 repository:
   name: aws-spacelift-admin-stack
-  description: This component is responsible for creating an administrative [stack](https://docs
+  description: This component is responsible for creating an administrative stack and its corresponding child stacks in the Spacelift organization
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
