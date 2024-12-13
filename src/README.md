@@ -6,7 +6,7 @@ tags:
   - provider/spacelift
 ---
 
-# Component: `spacelift`
+# Component: `spacelift-admin-stack`
 
 This component is responsible for creating an administrative [stack](https://docs.spacelift.io/concepts/stack/) and its
 corresponding child stacks in the Spacelift organization.
