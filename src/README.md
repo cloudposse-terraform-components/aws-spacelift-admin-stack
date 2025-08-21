@@ -12,7 +12,6 @@ This component is responsible for creating an administrative [stack](https://doc
 corresponding child stacks in the Spacelift organization.
 
 The component uses a series of `context_filters` to select atmos component instances to manage as child stacks.
-
 ## Usage
 
 **Stack Level**: Global
@@ -144,8 +143,8 @@ components:
           - TRIGGER Dependencies
 ```
 
-<!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -274,7 +273,19 @@ components:
 | <a name="output_child_stacks"></a> [child\_stacks](#output\_child\_stacks) | All children stacks managed by this component |
 | <a name="output_root_stack"></a> [root\_stack](#output\_root\_stack) | The root stack, if enabled and created by this component |
 | <a name="output_root_stack_id"></a> [root\_stack\_id](#output\_root\_stack\_id) | The stack id |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
+
+## References
+
+
+- [Spacelift Stack](https://docs.spacelift.io/concepts/stack/) - 
+
+- [Cloud Posse Spacelift Component](https://docs.cloudposse.com/components/library/aws/spacelift/) - 
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-spacelift-admin-stack&utm_content=)
+
